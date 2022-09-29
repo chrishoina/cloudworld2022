@@ -1,0 +1,23 @@
+Time Sheet:
+09.29.2022 - 1:02:05
+    What I did:
+    Found datasets, loaded them into my ADB, REST-enabled the tables. Created a directory for the Flask app. Created an initial app, copied some Bootstrap. Researched making a request with the Fetch API (https://flask.palletsprojects.com/en/2.2.x/patterns/javascript/#making-a-request-with-fetch)  
+
+    What I need to-do: 
+    - Create drop downs by year, and then by dimension
+    - Create a separate "take the happiness quiz" html file
+        - create a table for that, for posting to.
+        - create a happy2022 table 
+        - auto-REST enable the table 
+
+   
+   <div id="geology-fact">
+        {{ include "geology_fact.html" }}
+    </div> -->
+<script>
+    const geology_url = {{ url_for("geology_fact")|tojson }}
+    const geology_div = getElementById("geology-fact")
+    fetch(geology_url)
+        .then(response => response.text)
+        .then(text => geology_div.innerHtml = text)
+</script>
