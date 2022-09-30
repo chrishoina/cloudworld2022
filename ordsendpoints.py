@@ -7,3 +7,5 @@ happy2017 = 'https://gf641ea24ecc468-darmok.adb.us-ashburn-1.oraclecloudapps.com
 happy2018 = 'https://gf641ea24ecc468-darmok.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondarmok/happy2018/'
 
 happy2019 = 'https://gf641ea24ecc468-darmok.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondarmok/happy2019/'
+
+happy2022 = 'https://gf641ea24ecc468-darmok.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondarmok/happy2022/' 
